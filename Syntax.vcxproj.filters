@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="_spoofer_stub.asm">
+      <Filter>SpoofCall</Filter>
+    </MASM>
+    <MASM Include="spoofinternal.asm">
+      <Filter>SpoofCall</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="FortUpdater.cpp">
+      <Filter>FortUpdater</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="style.c">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="FortUpdater.h">
+      <Filter>FortUpdater</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>xor</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.hpp">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof_call.h">
+      <Filter>SpoofCall</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="MainOptions.h">
+      <Filter>Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Exploits.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatHelper.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="RetSpoof.h">
+      <Filter>SpoofCall</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixStructs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Major.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMenu.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="MainHooking.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="etc">
+      <UniqueIdentifier>{56cb059f-a7e6-4b91-b7d7-63e23c22a12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{d881dbea-9c10-4579-9f92-21a52990c3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortUpdater">
+      <UniqueIdentifier>{6b745708-04f0-447a-a853-b61afc83eec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{f62cc7c1-1008-4048-a5c2-82dc8e07bfaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xor">
+      <UniqueIdentifier>{00467293-c61f-4837-b891-32521444043e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{485a0a27-79f4-4e7b-93ef-333277fb01ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{8bc81432-fe31-4436-8dc2-8d9daf132f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpoofCall">
+      <UniqueIdentifier>{e9884604-4257-425b-99e5-e7cc40347b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{643fa532-7ce9-40ae-aecd-f85b64537de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{1d152c75-fef1-451e-8621-3373700f7e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options">
+      <UniqueIdentifier>{2fdc8fee-bf0a-43b9-a4f0-bdcea11067dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="FW1FontWrapper.lib">
+      <Filter>render</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
